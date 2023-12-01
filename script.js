@@ -47,7 +47,6 @@ async function getRepo(userName) {
   const projects = await res.json();
 
   repoInfo.innerHTML = "";
-
   for (let i = 0; i < projects.length; i++) {
     repoInfo.innerHTML += `
       <div class="card">
