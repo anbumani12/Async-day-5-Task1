@@ -11,7 +11,7 @@ input {
   margin: 12px 20px;
   padding: 6px 12px;
   background-color: rgb(26, 25, 25);
-  color:rgb(123, 181, 8);
+  color: rgb(123, 181, 8);
   border-radius: 15px;
   font-size: larger;
   border: 3px solid red;
@@ -33,49 +33,50 @@ i {
   color: red;
   padding: 5px 5px;
 }
-.card-img,img{
-    margin: 5px auto;
-    width: 200px;
-    border-radius: 50%;
+.card-img,
+img {
+  margin: 5px auto;
+  width: 200px;
+  border-radius: 50%;
 }
-.container{
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.main{
-    width: 60vw;
-    min-width: 330px;
-    text-align: center;
-    padding: 35px 15px;
+.main {
+  width: 60vw;
+  min-width: 330px;
+  text-align: center;
+  padding: 35px 15px;
 }
-h1{
-    padding: 10px 10px;
-    color:aliceblue;
+h1 {
+  padding: 10px 10px;
+  color: aliceblue;
 }
-.card{
-    width: 25rem;
-    background: #202124;
-    box-shadow: 1px 2px 3px #454545;
-    padding: 10px;
-    margin: 25px;
+.card {
+  width: 25rem;
+  background: #202124;
+  box-shadow: 1px 2px 3px #454545;
+  padding: 10px;
+  margin: 25px;
 }
-.card-title{
-    font-size:x-large;
-    font-weight: bold;
+.card-title {
+  font-size: x-large;
+  font-weight: bold;
 }
-.card-subHeading{
+.card-subHeading {
   font-size: medium;
   color: rgb(87, 87, 87);
 }
-#profileInfo .card{
-    border: 1px solid orangered;
+#profileInfo .card {
+  border: 1px solid orangered;
 }
-#repoInfo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
+#repoInfo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
 }
